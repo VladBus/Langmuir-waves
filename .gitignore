@@ -326,6 +326,16 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+*.py[cod]
+.idea/
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
 
 # Cake - Uncomment if you are using it
 # tools/**
@@ -396,3 +406,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#Others files
+experement_one/fortran/data/output/*.dat
+experement_one/fortran/data/input/*.dat
+*.exe
